@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS level 1</title>
+
+    <!--Linking CSS file-->
+    <link rel="stylesheet" href="CSS_lvl1_style.css">
+
+</head>
+
+<body>
+    <h1>This is a heading.</h1>
+    <p>Here is an ordered list:-</p>
+        <ol>
+            <li>Item one</li>
+            <li>Item two</li>
+            <li>Item three</li>
+        </ol>
+    <h4>This is another heading.</h4>
+
+    <!-- Classes need not be unique -->
+    <div class="div1">
+        <p>I am inside div1.</p>
+        <p>I am also inside div1.</p>
+        <p>I am inside div1, and a <span>part of me</span> is inside span.</p>
+    </div><br>
+    <div class="div1">
+        <p>I am inside another div tag, but have similar properties as div1</p>
+    </div><br>
+    <div class="div2">
+        <p>I am inside div2.</p>
+        <p>I am also inside div2.</p>
+    </div><br>
+
+    <!-- IDs must be unique -->
+    <p id="para1">I am a paragraph.</p>
+    <p id="para2">I am also a paragraph.</p>
+
+    <p>Here is an unordered list:-</p>
+        <ul>
+            <li>Item</li>
+            <li>Item</li>
+            <li>Item</li>
+            <li><a href="https://www.youtube.com/">YouTube</a></li>
+        </ul>
+    
+    <p>Specificity</p>
+    <!-- ID > class > normal tag -->
+    <ol>
+        <li class="list_item">Item 1</li>
+        <li class="list_item" id="item2">Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ol>
+</body>
+
+</html>

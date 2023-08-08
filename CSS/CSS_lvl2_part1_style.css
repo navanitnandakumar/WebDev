@@ -1,0 +1,39 @@
+/* 'text-align' positions text in the page */
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Default font size = 16px */
+
+body{
+    font-size: 20px;
+}
+
+/* Font size in terms of 'em' is a ratio of the font size applied
+So 2em = 2 times the set font size, which is 2 * 20 = 40 (in this case) */
+
+/* Use 'fonts.google.com' to download and set custom fonts */
+
+#second_para{
+    font-size: 2em;
+    font-family: 'Borel', cursive;
+}
+
+/* To centre an image:-
+display: block;
+margin-left: auto;
+margin-right: auto; */
+
+#box_model{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
