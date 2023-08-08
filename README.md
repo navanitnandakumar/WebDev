@@ -6,3 +6,7 @@ What I learnt :-
     <li>HTML</li>
     <li>CSS</li>
 </ul>
+Resources used :-
+<ul>
+    <li><a href="https://youtube.com/playlist?list=PLuJZH5pDX4GKrPyVImrii6mZ3kdwAOLvv">Python Django Full Stack Developer Course - iTech e-Learn</a></li>
+</ul>
