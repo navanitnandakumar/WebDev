@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap part 4</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- CSS inside HTMl using style tag -->
+    <style>
+        .boxy {
+            background-color: #b3ddff;
+            border: 2px solid black;
+        }
+    </style>
+
+    <!-- Bootstrap grid system -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-3 boxy">COL extra large 3</div>
+            <div class="col-xl-3 boxy">COL extra large 3</div>
+            <div class="col-xl-3 boxy">COL extra large 3</div>
+            <div class="col-xl-3 boxy">COL extra large 3</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 boxy">COL large 3</div>
+            <div class="col-lg-3 boxy">COL large 3</div>
+            <div class="col-lg-3 boxy">COL large 3</div>
+            <div class="col-lg-3 boxy">COL large 3</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 boxy">COL medium 4</div>
+            <div class="col-md-4 boxy">COL medium 4</div>
+            <div class="col-md-4 boxy">COL medium 4</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 boxy">COL small 6</div>
+            <div class="col-sm-6 boxy">COL small 6</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6 boxy">COL extra small 6</div>
+            <div class="col-6 boxy">COL extra small 6</div>
+        </div>
+    </div><br>
+
+    <!-- To fit different screen sizes -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6 boxy">ONE</div>
+            <div class="col-lg-3 col-sm-6 boxy">TWO</div>
+            <div class="col-lg-3 col-sm-6 boxy">THREE</div>
+            <div class="col-lg-3 col-sm-6 boxy">FOUR</div>
+        </div>
+    </div>
+</body>
+
+</html>
