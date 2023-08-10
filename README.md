@@ -1,5 +1,5 @@
 # WebDev
-This repository is a comprehensive collection of files and learning materials I've curated while learning web development.
+This repository is a comprehensive collection of files I've curated while learning web development.
 
 What I learnt :-
 <ul>
