@@ -9,77 +9,92 @@ selected tag{
 
 */
 
-h1{
+h1 {
     color: blue;
 }
-li{
-    color: rgb(255,153,0);
+
+li {
+    color: rgb(255, 153, 0);
     background-color: antiquewhite;
     font-size: larger;
     text-indent: 50px;
 }
-h4{
-    color: rgba(255,153,0,0.5);
+
+h4 {
+    color: rgba(255, 153, 0, 0.5);
 }
-body{
+
+body {
     background-image: url(https://www.desktopbackground.org/download/3840x2400/2015/02/19/905079_clouds-and-blue-sky-cool-wallpapers-for-desktop-and-phone_4288x2848_h.jpg);
     background-size: 200%;
     background-repeat: no-repeat;
 }
-div{
+
+div {
     background-color: lightskyblue;
     border-color: darkblue;
     border-width: 5px;
     border-style: groove;
 }
-p{
+
+p {
     background-color: lightseagreen;
     border-color: darkblue;
     border-width: 3px;
     border-style: dotted;
 }
-span{
+
+span {
     background-color: firebrick;
     color: gold;
 }
+
 /* '.' is used to target classes */
-.div1{
+.div1 {
     color: red;
     font-weight: 1000;
     font-style: oblique;
 }
-.div2{
+
+.div2 {
     color: darkgreen;
     font-size: x-large;
 }
+
 /* '#' is used to target IDs */
-#para1{
+#para1 {
     color: brown;
     font-size: large;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-#para2{
-    color:blueviolet;
+
+#para2 {
+    color: blueviolet;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: x-large;
     font-style: oblique;
 }
+
 /* '*' is used to target all elements and overrides everything else except IDs */
-*{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 /* 'a+b' targets all b elements that immediately follow an a element */
-p+ul{
+p+ul {
     border: 3px dashed darkolivegreen;
 }
+
 /* 'a b' is uset to target all b elements that are inside a elements */
-ul a{
+ul a {
     color: blue;
     font-size: xx-large;
 }
-.list_item{
-    color:darkred;
+
+.list_item {
+    color: darkred;
 }
-#item2{
-    color:darkblue;
+
+#item2 {
+    color: darkblue;
 }
