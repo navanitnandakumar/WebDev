@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+/* 'position: absolute;' and 'position: relative;' :- */
+
+/* Unit is mentioned in pixels when we want to define a shape of a particular custom size, position or if we want to adjust it slightly */
+/* Unit is mentioned in percentage when we want to define the size, position of a shape wrt the parent */
+
+#car1 {
+    width: 100px;
+    height: 120px;
+    background-color: red;
+}
+
+/* 'position: absolute;' lifts the target from the surface
+Next element will now take its original place (Here, blue will take original place of green)
+Now the targeted element can be moved anywhere and is unbounded by the parent */
+
+#car2 {
+    width: 110px;
+    height: 90px;
+    position: absolute;
+    background-color: green;
+}
+
+#car3 {
+    width: 130px;
+    height: 110px;
+    background-color: blue;
+}
+
+#box1 {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    margin-top: 200px;
+    margin-bottom: 200px
+}
+
+/* 'position: relative;' lifts the target from the surface, but it will still be bounded by the parent, which means values will be taken wrt parent */
+
+#box2 {
+    position: relative;
+    left: 30%;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+/* Flexbox :- */
+
+/* For working with width, we use 'justify-content'
+For working with height, we use 'align-items' */
+
+#box {
+    width: 500px;
+    height: 500px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* By default, these boxes will be organized from top to bottom inside parent box */
+/* But if we give 'display: flex;' to parent box, the boxes will be organized side-by-side within parent box */
+/* If we give 'justify-content: center;' to parent box, the boxes will be moved towards the center of the parent box wrt width */
+/* If we give 'align-items: center;' to parent box, the boxes will be moved towards the center of the parent box wrt height */
+
+#box-a {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+#box-b {
+    width: 130px;
+    height: 110px;
+    background-color: green;
+}
+
+#box-c {
+    width: 100px;
+    height: 110px;
+    background-color: blue;
+}
