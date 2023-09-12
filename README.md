@@ -6,4 +6,5 @@ What I learnt :-
     <li>HTML</li>
     <li>CSS</li>
     <li>Bootstrap</li>
+    <li>Javascript</li>
 </ul>
