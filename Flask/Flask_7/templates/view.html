@@ -1,0 +1,12 @@
+{% extends 'index.html' %}
+
+{% block title %}View{% endblock %}
+{% block content %}
+    {% if values %}
+        {% for i in values %}
+            <p>{{i.name}} | {{i.email}}</p>
+        {% endfor %}
+    {% else %}
+        <p>(NIL)</p>
+    {% endif %}
+{% endblock %}
