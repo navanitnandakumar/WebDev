@@ -6,5 +6,6 @@ What I learnt :-
     <li>HTML</li>
     <li>CSS</li>
     <li>Bootstrap</li>
-    <li>Javascript</li>
+    <li>Javascript (basics)</li>
+    <li>Flask</li>
 </ul>
