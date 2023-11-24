@@ -74,7 +74,7 @@ alert(greeting + " " + myName + "!")
 // Using 'var', if we define another variable with the same name, it gets overwritten
 
 let planet = "Earth"
-// Once we define a variable using 'let', we cannot declare another variable with the same name
+// Once we declare a variable using 'let', we cannot declare another variable with the same name
 
 const pi = 3.14
-// Once we define a variable using 'const', its value can no longer be changed
+// Once we declare a variable using 'const', its value can no longer be changed
