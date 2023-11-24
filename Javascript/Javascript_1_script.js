@@ -69,9 +69,40 @@ var total = bankAccount + deposit
 console.log(total)
 
 var greeting = "Welcome back"
-var myName = "Navanit"
+var myName = "John Doe"
 alert(greeting + " " + myName + "!")
+
+var temp_num = 5
+var temp_num = 7
+console.log(temp_num)
 // Using 'var', if we define another variable with the same name, it gets overwritten
+
+// Arrays
+var arr = ["Apple", "Orange", "Mango", 54, 72.5]
+console.log(arr)
+console.log(arr[2])
+
+// Objects
+var person = {
+    name:"John Doe", // key:value pair
+    age:18,
+    place:"Earth"
+}
+console.log(person)
+console.log(person.age)
+
+var student = [{
+    name:"John Doe", // key:value pair
+    age:18,
+    place:"Earth"
+}, {
+    name:"Doe John", // key:value pair
+    age:81,
+    place:"Mars"
+}]
+console.log(student)
+console.log(student[0].name)
+console.log(student[1].name)
 
 let planet = "Earth"
 // Once we declare a variable using 'let', we cannot declare another variable with the same name
