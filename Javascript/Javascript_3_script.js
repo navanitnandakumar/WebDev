@@ -5,21 +5,21 @@
 // }
 
 if (true) {
-    console.log("Executed");
+    console.log("Executed")
 }
 
-var hot = false;
-var temp = 60;
+var hot = false
+var temp = 60
 if (temp > 80) {
-    hot = true;
+    hot = true
 }
-console.log(hot);
+console.log(hot)
 
-temp = 100;
+temp = 100
 if (temp > 80) {
-    hot = true;
+    hot = true
 }
-console.log(hot);
+console.log(hot)
 
 // 'If-else' statement :-
 
@@ -29,18 +29,18 @@ console.log(hot);
 //     Code to be executed otherwise
 // }
 
-temp = 60;
+temp = 60
 if (temp > 80) {
-    console.log("Hot");
+    console.log("Hot")
 } else {
-    console.log("Not hot");
+    console.log("Not hot")
 }
 
-temp = 100;
+temp = 100
 if (temp > 80) {
-    console.log("Hot");
+    console.log("Hot")
 } else {
-    console.log("Not hot");
+    console.log("Not hot")
 }
 
 // 'If-else if-else' statement :-
@@ -53,56 +53,56 @@ if (temp > 80) {
 //     Code to be executed otherwise
 // }
 
-temp = 60;
+temp = 60
 if (temp >= 80) {
-    console.log("Very hot");
+    console.log("Very hot")
 } else if (temp >= 50) {
-    console.log("Hot");
+    console.log("Hot")
 } else {
-    console.log("Not hot");
+    console.log("Not hot")
 }
 
-temp = 100;
+temp = 100
 if (temp >= 80) {
-    console.log("Very hot");
+    console.log("Very hot")
 } else if (temp >= 50) {
-    console.log("Hot");
+    console.log("Hot")
 } else {
-    console.log("Not hot");
+    console.log("Not hot")
 }
 
-temp = 30;
+temp = 30
 if (temp >= 80) {
-    console.log("Very hot");
+    console.log("Very hot")
 } else if (temp >= 50) {
-    console.log("Hot");
+    console.log("Hot")
 } else {
-    console.log("Not hot");
+    console.log("Not hot")
 }
 
-var marks = prompt("Enter your marks :-");
-var grade;
+var marks = prompt("Enter your marks :-")
+var grade
 if (marks >= 90) {
-    grade = 'A';
+    grade = 'A'
 } else if (marks >= 80 && marks < 90) {
-    grade = 'B';
+    grade = 'B'
 } else if (marks >= 70 && marks < 80) {
-    grade = 'C';
+    grade = 'C'
 } else if (marks >= 60 && marks < 70) {
-    grade = 'D';
+    grade = 'D'
 } else if (marks >= 50 && marks < 60) {
-    grade = 'E';
+    grade = 'E'
 } else {
-    grade = 'F';
+    grade = 'F'
 }
 alert(grade);
 
 if (grade == 'A' || grade == 'B') {
-    alert("Good job!");
+    alert("Good job!")
 } else if (grade == 'C' || grade == 'D') {
-    alert("Average...");
+    alert("Average...")
 } else if (grade == 'E') {
-    alert("Poor performance!");
+    alert("Poor performance!")
 } else {
-    alert("Failed!");
+    alert("Failed!")
 }
